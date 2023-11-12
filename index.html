@@ -1,64 +1,94 @@
 <!DOCTYPE html>
 <html lang="sk">
-
 <head>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1WVED3DYPD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-1WVED3DYPD');
-</script>
-	
-    <meta charset="UTF-8"> 
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cikavarko</title>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
 
+   <!-- Ikony -->
+   <link rel="stylesheet"
+   href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+   <!-- Font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;500;600;900&family=Montserrat:wght@300;400&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&family=Raleway:wght@600&display=swap" rel="stylesheet">
+   
+
 </head>
-
-<body style="background-color:black;"> 
-
 <body>
 
-    <section id="header">
-        
+    <header>
 
-      
-        
+    <a href="#domov">
+        <img src="images/logo.png" alt="logo" width="140">
+    </a>
+    
+    <ul class="navlist">
+        <li><a href="#domov" class="active">Domov</a></li>
+        <li><a href="#onas">O nás</a></li>
+        <li><a href="#pivo">Pivo</a></li>
+        <li><a href="#recenzie">Recenzie</a></li>
+        <li><a href="#kontakty">Kontakty</a></li>
 
-       
-        
+    </ul>
 
+    <div class="nav-icons">
+        <a href="#"><i class='bx bx-search'></i></a>
+        <a href="#"><i class='bx bx-cart' ></i></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+
+    </header>
+
+    <!-- Domov -->
+    <section class="Domov" id="Domov">
+        <div class="Domov-text">
+            <h1>Vitaj v <span>srdci</span> nášho fascinujúceho pivného sveta.</h1> 
+   
+
+        </div>
+
+
+        <div class="Domov-img">
+            <img src="images/poz.png" width="600">
+
+        </div>
     </section>
 
-    <script src="script.js"></script>
-
     
-	<!----vnútorná sekcia ---->
-	<section class="about">
-		<div class="main">
-			
-			<div class="about-text">
-				<h2>Pivný svet</h2>
-				
-			</div>
-		</div>
-	</section>
+    
+    
+        <!-- O nas -->
+
+        <section class="onas" id="onas">
+            <div class="onas-img">
+                <img src="images/us.jpeg" width="400">
+
+            </div>
+
+            <div class="onas-text">
+                <h1><span>Náš príbeh</span></h1>
+                <p><br>Vitaj na našej stránke Cikavarko, kde sa vášeň stretáva s pivnou kultúrou, a kde objavujeme všetko, čo je spojené s týmto lahodným nápojom. My sme tí, čo zdieľajú radosť z každého dúšku, a naša snaha je priblížiť ti fascinujúci svet piva s láskou a znalosťami.<br></p>
+                <p><br>Cikavarko nie je len názov, je to náš príbeh. Vyznávame sa v umení pivovarenstva a zdokonaľujeme sa v skúmaní jedinečných chuťových kombinácií. Sme tím nadšencov, ktorí veria, že pivo je viac než len nápoj – je to spôsob života. A práve toto presvedčenie nás vedie k tomu, aby sme ti priniesli najnovšie informácie, hodnotenia pív a príbehy o najlepších pivovaroch.<br></p>
+                <p><br>Náš cieľ je jednoduchý: poskytovať ti inšpiráciu, aby si si užíval každý moment s pohárom v ruke. Naša stránka je miestom, kde sa stretávajú milovníci piva, kde získavaš vhľad do jeho rôznorodých svetov a kde objavuješ nové obľúbené chute. Cheers! 🍻<br></p>
+    
+            </div>
+
+        </section>
+
+
+
+    <script src="javascript.js"></script>
 
 
 
 
 
 
-   
+
 
 </body>
 
